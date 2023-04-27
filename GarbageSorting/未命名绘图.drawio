@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T05:47:07.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" version="21.2.3" etag="6_us_7h5DAV9CfEYnd3e" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T06:19:51.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="Joap31-qFAfsodcIVtBh" version="21.2.3" type="github">
   <diagram name="第 1 页" id="6ZiAtuESyfI7QjD55QfH">
-    <mxGraphModel>
+    <mxGraphModel dx="2110" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="720" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system-font, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif&quot; color=&quot;rgba(0, 0, 0, 0.5)&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="170" width="1130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-3" value="&lt;ul style=&quot;margin: 0px 0px 1em; padding: 0px 0px 0px 30px; list-style: unset; max-width: 100%; width: 703px; color: rgba(0, 0, 0, 0.9); font-family: -apple-system-font, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255); box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); margin: 1em 0px; padding: 0px; max-width: 100%; clear: both; color: rgba(0, 0, 0, 0.5); font-size: 15px; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;1、可编辑的题库，包含单选题库和多选题库。&lt;/li&gt;&lt;li style=&quot;margin: 1em 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important; clear: both; color: rgba(0, 0, 0, 0.5); font-size: 15px;&quot;&gt;2、每次答题的题目会从不同的题库中随机的抽取，由这些随机抽取的题目组成一次答题过程。&lt;/li&gt;&lt;li style=&quot;margin: 1em 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important; clear: both; color: rgba(0, 0, 0, 0.5); font-size: 15px;&quot;&gt;3、所有题目回答完毕后，可提交查看统计结果。&lt;/li&gt;&lt;li style=&quot;margin: 1em 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important; clear: both; color: rgba(0, 0, 0, 0.5); font-size: 15px;&quot;&gt;4、可回看此次答题过程中的所有题目以及答题情况。&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="710" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-7" value="&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 16px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;答题管理包括答题活动，答题记录的管理，答题活动可以设置参与的部门，时间，取题数量，答题时间，答题数量，题目类型，题型分数等；支持导出答题活动记录。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="510" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-8" value="&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 16px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;题库管理包括题库分类，分类专项，题目列表，批量导入题目，上传图片；题库分类可以设置时间，取题数量，答题时间，答题数量，题目类型，题型分数等；题目列表可以管理题目，修改，删除题目；支持批量导入题目，支持上传图片。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="450" width="655" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZZsFDPY9UNSteAuJ_DV-9" target="IZZsFDPY9UNSteAuJ_DV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZZsFDPY9UNSteAuJ_DV-9" target="IZZsFDPY9UNSteAuJ_DV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-9" value="答题管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-10" value="答题记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-11" value="答题活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-14" value="答题数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="890" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-15" value="答题时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="650" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-17" value="参与部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1005" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-18" value="题目类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-19" value="题型分数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1060" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-21" value="导出答题活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.3333333333333333;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="925" width="45" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-28" value="用户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-29" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="775" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-30" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="925" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-31" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" y="900" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-32" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" y="970" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZZsFDPY9UNSteAuJ_DV-33" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1090" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
