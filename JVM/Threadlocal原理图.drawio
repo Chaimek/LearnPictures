@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T01:57:27.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" version="20.6.0" etag="74zI6fF2mXzjRgkMT0lw" type="github"><diagram id="_doCuywBgAHHsJafGZFw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-27T04:19:37.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" version="20.6.0" etag="4B7BhscYaYNna2FDUp48" type="github">
+  <diagram id="KYawN1TWcDKBo0HQWUnC" name="第 1 页">
+    <mxGraphModel dx="1042" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-2" value="jdk1.7及以前Threadlocal的设计" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="500" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-4" value="ThreadLocal对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="425" width="350" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-6" value="ThreadLocalMap对象 --&amp;gt;就是Map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-8" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-9" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-10" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-11" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-12" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-13" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-14" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-17" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-21" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-22" value="Value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4w7ER5ssE2N3xtLeICA-9" target="Z4w7ER5ssE2N3xtLeICA-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="580" as="sourcePoint" />
+            <mxPoint x="280" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-24" value="拉链法解决hash冲突" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="610" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-25" value="jdk1.8Threadlocal的设计" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="890" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="940" width="500" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-27" value="Thread对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="940" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="995" width="350" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-29" value="ThreadLocalMap对象 --&amp;gt;就是Map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1030" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-30" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-31" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-32" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-33" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-34" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-35" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-36" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1070" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-37" value="Entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-38" value="ThreadLocal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-39" value="Value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4w7ER5ssE2N3xtLeICA-31" target="Z4w7ER5ssE2N3xtLeICA-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1150" as="sourcePoint" />
+            <mxPoint x="280" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4w7ER5ssE2N3xtLeICA-41" value="拉链法解决hash冲突" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1180" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
