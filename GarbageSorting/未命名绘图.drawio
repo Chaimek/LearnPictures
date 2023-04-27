@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T07:32:50.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="jK4BElzLRw_d7Q4oLJUd" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T07:36:59.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="-jZ0n0Bf8k1DiTS6jeQ4" version="21.2.3" type="github">
   <diagram name="第 1 页" id="6ZiAtuESyfI7QjD55QfH">
-    <mxGraphModel dx="2324" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2177" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,8 +259,11 @@
         <mxCell id="1i-0qx0-avIZ1boDxlc1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1i-0qx0-avIZ1boDxlc1-27" target="1i-0qx0-avIZ1boDxlc1-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1i-0qx0-avIZ1boDxlc1-27" value="用户可以浏览科普知识和发表新的科普知识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-27" value="用户发表新的科普知识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1209" y="2060" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1i-0qx0-avIZ1boDxlc1-28" target="1i-0qx0-avIZ1boDxlc1-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1i-0qx0-avIZ1boDxlc1-28" value="反馈、评论" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1204" y="2150" width="110" height="50" as="geometry" />
@@ -271,11 +274,23 @@
         <mxCell id="1i-0qx0-avIZ1boDxlc1-31" value="大屏显示关于垃圾分类有关的活动信息，广告等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1234" y="1690" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1i-0qx0-avIZ1boDxlc1-33" value="显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1i-0qx0-avIZ1boDxlc1-33" target="1i-0qx0-avIZ1boDxlc1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-33" value="后台工作人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1394" y="2060" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1i-0qx0-avIZ1boDxlc1-36" value="审核通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-36" value="后台审核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1324" y="2060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-40" value="显示在页面中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2060" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-42" value="通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1494" y="2060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1i-0qx0-avIZ1boDxlc1-43" value="用户之间可以评论科普知识，也可向后台反馈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="2150" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
