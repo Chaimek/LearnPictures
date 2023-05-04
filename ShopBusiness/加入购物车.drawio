@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T01:41:45.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="S_W2iidRTnbbQ3oV7ZFF" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T01:42:39.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="3726-t1mAXbgOXSO53JH" version="21.2.3" type="github">
   <diagram name="第 1 页" id="-aPTYqdTrdN1IJA7BTyB">
     <mxGraphModel dx="1350" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             <mxPoint x="630" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B_nZb027GL8no2wa5hfu-9" value="3、点击加入购物车http://cart.gulimall.com/addToCart" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="B_nZb027GL8no2wa5hfu-9" value="3、点击加入购物车http://cart.gulimall.com/addToCart?skuId=16&amp;amp;skuSelectNum=1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="824" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
