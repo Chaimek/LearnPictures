@@ -1,45 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T00:55:50.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="GYYBOyx_-e_doxgNu6uI" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T01:09:52.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="4nobSmBaMqYZKuMFRngc" version="21.2.3" type="github">
   <diagram name="第 1 页" id="-aPTYqdTrdN1IJA7BTyB">
     <mxGraphModel dx="1138" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B_nZb027GL8no2wa5hfu-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="100" y="646" width="20" height="300" as="geometry" />
+          <mxGeometry x="100" y="646" width="20" height="704" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-2" value="用户（浏览器）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="620" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-3" value="search服务&lt;br&gt;商品详情页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="270" y="630" width="100" height="300" as="geometry" />
+          <mxGeometry x="340" y="630" width="100" height="730" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-4" value="Cart服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="520" y="630" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="B_nZb027GL8no2wa5hfu-5" value="Cart服务&lt;br&gt;购物车页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="910" y="630" width="100" height="300" as="geometry" />
+          <mxGeometry x="640" y="630" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="130" y="720" as="sourcePoint" />
-            <mxPoint x="290" y="720" as="targetPoint" />
+            <mxPoint x="330" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-7" value="1、用户点击商品详情" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="690" width="80" height="26" as="geometry" />
+          <mxGeometry x="190" y="690" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="130" y="810" as="sourcePoint" />
-            <mxPoint x="540" y="810" as="targetPoint" />
+            <mxPoint x="630" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-9" value="3、点击加入购物车" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="820" width="80" height="26" as="geometry" />
+          <mxGeometry x="330" y="824" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="310" y="756" as="sourcePoint" />
+            <mxPoint x="320" y="756" as="sourcePoint" />
             <mxPoint x="130" y="756" as="targetPoint" />
             <Array as="points">
               <mxPoint x="200" y="756" />
@@ -47,23 +44,73 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-11" value="2、回显商品详情页" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="767" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B_nZb027GL8no2wa5hfu-12" value="Cart服务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;商品添加成功页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="727" y="630" width="100" height="300" as="geometry" />
+          <mxGeometry x="190" y="767" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B_nZb027GL8no2wa5hfu-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="580" y="843" as="sourcePoint" />
-            <mxPoint x="580" y="883" as="targetPoint" />
+            <mxPoint x="710" y="850" as="sourcePoint" />
+            <mxPoint x="710" y="890" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="843" />
-              <mxPoint x="660" y="883" />
+              <mxPoint x="790" y="850" />
+              <mxPoint x="790" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B_nZb027GL8no2wa5hfu-14" value="4、使用拦截器将用户信息封装为&lt;br&gt;UserInfoTo并放到ThreadLocal中" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="850" width="80" height="26" as="geometry" />
+        <mxCell id="B_nZb027GL8no2wa5hfu-14" value="4、使用拦截器将用户信息封装为UserInfoTo并放到ThreadLocal中" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="860" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="1129" as="sourcePoint" />
+            <mxPoint x="720" y="1169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="1129" />
+              <mxPoint x="810" y="1169" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-16" value="5、添加商品到购物车，如果购物车中有，则修改数量，如果购物车中没有，则添加商品项" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="1040" as="sourcePoint" />
+            <mxPoint x="150" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-20" value="6、命令浏览器重定向到redirect:http://cart.gulimall.com/toCartItemSuccessPage，并在重定向域添加了skuId" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1000" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="1080" as="sourcePoint" />
+            <mxPoint x="590" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-26" value="7、向服务器发起http://cart.gulimall.com/toCartItemSuccessPage?skuId=16" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1090" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="960" as="sourcePoint" />
+            <mxPoint x="720" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="960" />
+              <mxPoint x="810" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-30" value="8、根据skuId查询出商品项信息，并返回success.html" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1143" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="1220" as="sourcePoint" />
+            <mxPoint x="140" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-32" value="9、渲染添加成功页面，供用户展示" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1230" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
