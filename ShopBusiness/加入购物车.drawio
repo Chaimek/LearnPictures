@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T00:40:37.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" version="21.2.3" etag="Ui-x_2hmUSU3Cka8bgcp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T00:55:50.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="GYYBOyx_-e_doxgNu6uI" version="21.2.3" type="github">
   <diagram name="第 1 页" id="-aPTYqdTrdN1IJA7BTyB">
-    <mxGraphModel>
+    <mxGraphModel dx="1138" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B_nZb027GL8no2wa5hfu-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="646" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-2" value="用户（浏览器）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-3" value="search服务&lt;br&gt;商品详情页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-4" value="Cart服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="630" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-5" value="Cart服务&lt;br&gt;购物车页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="910" y="630" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="720" as="sourcePoint" />
+            <mxPoint x="290" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-7" value="1、用户点击商品详情" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="810" as="sourcePoint" />
+            <mxPoint x="540" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-9" value="3、点击加入购物车" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="756" as="sourcePoint" />
+            <mxPoint x="130" y="756" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="756" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-11" value="2、回显商品详情页" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="767" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-12" value="Cart服务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;商品添加成功页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="727" y="630" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="843" as="sourcePoint" />
+            <mxPoint x="580" y="883" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="843" />
+              <mxPoint x="660" y="883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_nZb027GL8no2wa5hfu-14" value="4、使用拦截器将用户信息封装为&lt;br&gt;UserInfoTo并放到ThreadLocal中" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="850" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
