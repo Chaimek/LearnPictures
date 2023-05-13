@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T12:08:14.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="hT2-ysp4LmgxUzPBCikO" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T12:11:15.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="u8MILBMlnwOkCJ5jtp2F" version="21.2.9" type="github">
   <diagram name="第 1 页" id="P5_SaoOpZUqWJXCqDRnv">
-    <mxGraphModel dx="1895" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2274" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,24 @@
         </mxCell>
         <mxCell id="o0mnyLyp5qBXfOMMtlVB-49" value="&lt;div&gt;exchange: &quot;stock-event-exchange&quot;&lt;/div&gt;&lt;div&gt;routing-key: &quot;stock.locked&quot;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="1150" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o0mnyLyp5qBXfOMMtlVB-50" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="1200" as="sourcePoint" />
+            <mxPoint x="440" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0mnyLyp5qBXfOMMtlVB-51" value="13、返回库存锁定情况" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1169" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o0mnyLyp5qBXfOMMtlVB-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="1260" as="sourcePoint" />
+            <mxPoint x="780" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0mnyLyp5qBXfOMMtlVB-53" value="14、订单生成，创建订单成功的消息发送给MQ" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="1240" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
