@@ -1,9 +1,353 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T02:31:51.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" version="21.2.9" etag="jt3Vky-xor6XUVd5YDw0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T04:25:52.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="MvdmCQV-sYcDJpGLGqIa" version="21.2.9" type="github">
   <diagram name="第 1 页" id="IzP1_a8ajI2uSlRTaGuz">
-    <mxGraphModel>
+    <mxGraphModel dx="1137" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-94" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1890" width="310" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-68" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1169" width="170" height="531" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="100" width="140" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="235" width="230" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="255" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-1" value="RabbitMQ服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1310" y="38" width="100" height="3262" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-2" value="库存服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1040" y="38" width="100" height="2882" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-3" value="订单服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="800" y="38" width="100" height="2972" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1161" y="285" as="sourcePoint" />
+            <mxPoint x="1330" y="285.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-9" value="1、每锁一个库存就发一个消息，规则为{&lt;br&gt;exchange:stock-event-exchange&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;routingkey:stock.locked&lt;/span&gt;} ---&amp;gt; 会路由&lt;br&gt;到stock.delay.queue这个死信队列" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="221" width="80" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-14" value="某&lt;br&gt;个&lt;br&gt;商&lt;br&gt;品&lt;br&gt;锁&lt;br&gt;库&lt;br&gt;存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="319" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="279" width="20" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-16" value="1、锁定成功" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="269" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-17" value="2、锁定失败 --》抛异常 ---&amp;gt;整个锁库存回滚" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="369" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="419" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-19" value="某&lt;br&gt;个&lt;br&gt;商&lt;br&gt;品&lt;br&gt;锁&lt;br&gt;库&lt;br&gt;存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="479" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="439" width="20" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-21" value="1、锁定成功" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="429" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="335" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-25" value="遍&lt;br&gt;历&lt;br&gt;每&lt;br&gt;个&lt;br&gt;商&lt;br&gt;品&lt;br&gt;锁&lt;br&gt;库&lt;br&gt;存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="407" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-26" value="2、锁定失败 --》抛异常 ---&amp;gt;整个锁库存回滚" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="533" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-27" value="会保存锁定信息到数据库" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="285" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-29" value="会保存锁定信息到数据库" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="445" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-34" value="3、返回库存锁定情况" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1065" y="630" as="sourcePoint" />
+            <mxPoint x="935" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-36" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="925" y="200" as="sourcePoint" />
+            <mxPoint x="1085" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-39" value="在同一个事务中" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="100" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-40" value="1、保存订单，订单项&lt;br&gt;信息到数据库" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-41" value="2、发起远程调用锁库存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="166" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-42" value="锁定库存，在同一个事务中" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="235" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-43" value="4、只要库存锁定失败或&lt;br&gt;网络问题，都会抛异常，&lt;br&gt;那么订单就会回滚" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="670" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-44" value="5、TODO &lt;br&gt;同理锁定优惠券信息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="489" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-46" value="1、工作单回滚&lt;br&gt;（ware_order_task）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="476" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-47" value="2、工作单详情回滚&lt;br&gt;（ware_order_task_detail，&lt;br&gt;记录了每个商品的锁定信息）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="536" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-48" value="3、锁定的库存回滚&lt;br&gt;（wms_ware_sku）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="600" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1269.75" y="562" as="sourcePoint" />
+            <mxPoint x="1269.75" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1269.75" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-50" value="所有数据回滚到&lt;br&gt;未锁库存之前" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="609" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-51" value="6、此时订单真正生成&lt;br&gt;（因为订单信息不会回滚了）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="830" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="920" y="920" as="sourcePoint" />
+            <mxPoint x="1330" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-53" value="7、创建订单成功的消息发送给MQ，{exchange:order-event-exchange&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;routingKey:order.create.order&lt;/span&gt;}---&amp;gt;路由到order.delay.queue这个死信队列" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="890" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-54" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1380" y="319" as="sourcePoint" />
+            <mxPoint x="1380" y="379" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="319" />
+              <mxPoint x="1430" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-56" value="监听stock.delay.queue,消息的过期时间为2分钟，&lt;br&gt;如果消息过期路由到stock.release.stock.queue&lt;br&gt;(使用死信队列实现延时队列)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="335" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-57" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1390" y="970" as="sourcePoint" />
+            <mxPoint x="1390" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="970" />
+              <mxPoint x="1440" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-58" value="监听order.delay.queue,消息的过期时间为1分钟，&lt;br&gt;如果消息过期路由到order.release.order.queue&lt;br&gt;(使用死信队列实现延时队列)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="986" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-60" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1100" y="1800" as="sourcePoint" />
+            <mxPoint x="1320" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-61" value="@RabbitListener(queues = &quot;stock.release.stock.queue&quot;)&lt;br&gt;监听库存释放的消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1770" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-64" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="1120" as="sourcePoint" />
+            <mxPoint x="1350" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-65" value="@RabbitListener(queues = &quot;order.release.order.queue&quot;)监听解锁订单的消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="1090" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-66" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1340" y="1140" as="sourcePoint" />
+            <mxPoint x="880" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-67" value="有订单需要解锁" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1051" y="1143" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-70" value="1、接收消息（order，message，channel&lt;span style=&quot;background-color: initial;&quot;&gt;）,&lt;br&gt;发的什么就用什么接收&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1200" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-71" value="解&lt;br&gt;锁&lt;br&gt;订&lt;br&gt;单" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="747" y="1370" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1278" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-74" value="2、解锁失败，channel.basicReject()拒绝接收这个消息，并将消息返还给MQ" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1627" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-75" value="1、解锁成功：channel.basicAck()，确认消息消费成功" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="1507" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-78" value="解锁订单流程" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1169" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-79" value="1.根据订单号去数据库查询最新的订单状态" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1278" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-80" value="2.如果用户还未付款，而此时订单已经过期，&lt;br&gt;修改订单为已取消" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1360" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-81" value="3.向MQ发送消息---》表示订单已经取消，防止&lt;br&gt;集群卡顿，库存误以为订单还是未付款状态不&lt;br&gt;用解锁，导致库存未解锁--&amp;gt; 一个补偿机制" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1461" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-82" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="1480" as="sourcePoint" />
+            <mxPoint x="1330" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-83" value="直接发送到库存解锁队列{exchange:order-event-exchange&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;routingKey:order.release.other&lt;/span&gt;}&lt;br&gt;会路由到stock.release.stock.queue" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="1440" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-85" value="catch解锁订单时的异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1580" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1533" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-87" value="无异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1520" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-88" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="990" y="1530" as="sourcePoint" />
+            <mxPoint x="1340" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-89" value="有异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1640" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-90" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="990" y="1652.47" as="sourcePoint" />
+            <mxPoint x="1330" y="1652.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-91" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1320" y="1820" as="sourcePoint" />
+            <mxPoint x="1100" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-93" value="有库存要解锁的消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1830" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-96" value="判断消息类型，库存释放队列中的消息有两种来源：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1910" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-97" value="1、锁定库存时的消息（stockLockTo {taskId，taskDetailId&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1940" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-98" value="2、预发更新订单状态超时，导致库存未释放的补偿消息" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1966" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-99" value="（OrderTo orderTo)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1980" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q5eoUhEOwIlLoj9b1k-v-99" target="Q5eoUhEOwIlLoj9b1k-v-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-101" value="第一种消息&lt;br&gt;解锁库存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2180" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-102" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="2040" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-106" value="1、根据stockLockTo的taskDetailId&lt;br&gt;查询工作单详情项" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="2030" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-107" value="2、判断工作单详情项，不等于null才需要解锁，&lt;br&gt;等于null说明锁定失败，直接回滚了,无需解锁" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="2080" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-110" value="3、远程调用order服务查看订单信息&lt;div&gt;订单不存在，或者已经取消订单 ---&amp;gt; 解锁库存&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="2140" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-111" value="4、判断是否已经被解锁过了，防止消息重复消费,&lt;br&gt;只有当前库存是被锁定状态，才需要解锁库存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2206" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-112" value="5、修改工作单详情状态为已解锁" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2284" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-113" value="第二种消息&lt;br&gt;解锁库存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2490" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-114" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2410" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-115" value="1、根据orderSn查询到工作单id" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2410" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-116" value="2、查询出所有未解锁的工作详情项" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="2480" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-117" value="3、遍历未解锁的工作单详情项&lt;br&gt;将未解锁的解锁" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="2560" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-134" value="2、解锁失败，channel.basicReject()&lt;br&gt;拒绝接收这个消息，并将消息返还给MQ" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="2708" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-135" value="1、解锁成功：channel.basicAck()，&lt;br&gt;确认消息消费成功" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="2601" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-136" value="catch解锁库存&lt;br&gt;时的异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2674" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-137" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="2627" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-138" value="无异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="2614" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-139" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="2624" as="sourcePoint" />
+            <mxPoint x="1360" y="2624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-140" value="有异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="2734" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5eoUhEOwIlLoj9b1k-v-141" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1131" y="2747.0000000000005" as="sourcePoint" />
+            <mxPoint x="1360" y="2747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
