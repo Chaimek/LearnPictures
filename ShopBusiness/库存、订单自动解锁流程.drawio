@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T04:25:52.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="MvdmCQV-sYcDJpGLGqIa" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T04:27:50.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="ZMvhyXoICRe6_CZdojoG" version="21.2.9" type="github">
   <diagram name="第 1 页" id="IzP1_a8ajI2uSlRTaGuz">
     <mxGraphModel dx="1137" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-94" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="1890" width="310" height="870" as="geometry" />
+          <mxGeometry x="940" y="1890" width="310" height="820" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-68" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1169" width="170" height="531" as="geometry" />
@@ -304,48 +304,48 @@
           <mxGeometry x="1090" y="2284" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-113" value="第二种消息&lt;br&gt;解锁库存" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="2490" width="80" height="26" as="geometry" />
+          <mxGeometry x="941" y="2418" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-114" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="2410" width="20" height="160" as="geometry" />
+          <mxGeometry x="1011" y="2338" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-115" value="1、根据orderSn查询到工作单id" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="2410" width="80" height="26" as="geometry" />
+          <mxGeometry x="1071" y="2338" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-116" value="2、查询出所有未解锁的工作详情项" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="2480" width="80" height="26" as="geometry" />
+          <mxGeometry x="1076" y="2408" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-117" value="3、遍历未解锁的工作单详情项&lt;br&gt;将未解锁的解锁" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="2560" width="80" height="26" as="geometry" />
+          <mxGeometry x="1076" y="2488" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-134" value="2、解锁失败，channel.basicReject()&lt;br&gt;拒绝接收这个消息，并将消息返还给MQ" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1211" y="2708" width="80" height="26" as="geometry" />
+          <mxGeometry x="1212" y="2636" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-135" value="1、解锁成功：channel.basicAck()，&lt;br&gt;确认消息消费成功" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1201" y="2601" width="80" height="26" as="geometry" />
+          <mxGeometry x="1202" y="2529" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-136" value="catch解锁库存&lt;br&gt;时的异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="2674" width="80" height="26" as="geometry" />
+          <mxGeometry x="971" y="2602" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-137" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="2627" width="20" height="120" as="geometry" />
+          <mxGeometry x="1056" y="2555" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-138" value="无异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1061" y="2614" width="80" height="26" as="geometry" />
+          <mxGeometry x="1062" y="2542" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-139" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1130" y="2624" as="sourcePoint" />
-            <mxPoint x="1360" y="2624" as="targetPoint" />
+            <mxPoint x="1131" y="2552" as="sourcePoint" />
+            <mxPoint x="1361" y="2552" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-140" value="有异常" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1061" y="2734" width="80" height="26" as="geometry" />
+          <mxGeometry x="1062" y="2662" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5eoUhEOwIlLoj9b1k-v-141" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1131" y="2747.0000000000005" as="sourcePoint" />
-            <mxPoint x="1360" y="2747" as="targetPoint" />
+            <mxPoint x="1132" y="2675.0000000000005" as="sourcePoint" />
+            <mxPoint x="1361" y="2675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
