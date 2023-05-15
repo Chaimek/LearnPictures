@@ -1,9 +1,483 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T08:25:30.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" version="21.3.0" etag="dZrp2SrtKL3EuvdhucbC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T10:15:49.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="XAViABcmrzBPy6kQ_BKT" version="21.3.0" type="github">
   <diagram name="第 1 页" id="O23Y88hJr7wUiLWXJ_u-">
-    <mxGraphModel>
+    <mxGraphModel dx="1953" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.user_permissions;fillColor=#0078D7;" vertex="1" parent="1">
+          <mxGeometry x="167.1" y="154" width="65.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-4" value="浏览器（用户）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="128" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-5" value="网络" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="144" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-8" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="736.4" y="154" width="73.6" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-9" value="服务器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="114" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-15" value="私钥、公钥都在服务器上" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="88" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="254" y="183.5" as="sourcePoint" />
+            <mxPoint x="414" y="183.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="183.5" as="sourcePoint" />
+            <mxPoint x="710" y="183.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <mxPoint x="250" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="710" y="200" as="sourcePoint" />
+            <mxPoint x="550" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-22" value="服务器下发公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-23" value="服务器下发公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-26" value="之后向服务器发送数据使用&lt;br&gt;服务器的公钥加密之后发送" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="236" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-27" value="获取服务器公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="154" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-28" value="获取服务器公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="154" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-31" value="请求服务器资源：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-32" value="443端口" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="199.5" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-34" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-36" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="342.5" as="sourcePoint" />
+            <mxPoint x="290" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-37" value="公钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-38" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-39" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="342.5" as="sourcePoint" />
+            <mxPoint x="620" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-41" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-43" value="私钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="655" y="342.65999999999997" as="sourcePoint" />
+            <mxPoint x="725" y="343.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-45" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="330" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-48" value="私钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="360" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-50" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-51" value="公钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="759.58" y="270" as="sourcePoint" />
+            <mxPoint x="760.08" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-54" value="第一步：获取公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="102" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-55" value="第二步：真正的数据传输" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="284" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-56" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.user_permissions;fillColor=#0078D7;" vertex="1" parent="1">
+          <mxGeometry x="166.1" y="594" width="65.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-57" value="浏览器（用户）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="568" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-59" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="735.4" y="594" width="73.6" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-60" value="服务器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="719" y="554" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-61" value="私钥、公钥都在服务器上" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729" y="528" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-68" value="之后向服务器发送数据使用&lt;br&gt;服务器的公钥加密之后发送" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="676" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-69" value="获取服务器公钥（黑客拦截）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="585" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-71" value="请求服务器资源：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="510" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-73" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="198.5" y="710" as="sourcePoint" />
+            <mxPoint x="199" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-74" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="770" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-75" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="219" y="782.5" as="sourcePoint" />
+            <mxPoint x="289" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-76" value="黑客的公钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="750" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-77" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="770" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-78" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="511" y="783" as="sourcePoint" />
+            <mxPoint x="590" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-79" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="779" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-80" value="服务器私钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="760" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-81" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="654" y="782.66" as="sourcePoint" />
+            <mxPoint x="724" y="783.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-82" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="719" y="770" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-83" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="719" y="800" as="sourcePoint" />
+            <mxPoint x="649" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-84" value="服务器私钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="800" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-85" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="800" as="sourcePoint" />
+            <mxPoint x="511" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-86" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="289" y="800" as="sourcePoint" />
+            <mxPoint x="219" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-87" value="黑客的公钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="800" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-88" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="758.58" y="710" as="sourcePoint" />
+            <mxPoint x="759.08" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-91" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.webcam_hd;" vertex="1" parent="1">
+          <mxGeometry x="414" y="591" width="66" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-92" value="黑客" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="565" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-95" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <mxPoint x="360" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-96" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="630" as="sourcePoint" />
+            <mxPoint x="250" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-97" value="黑客生成自己的公钥和私钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="542" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-98" value="下发黑客自己生成的公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="638" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-99" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="611.5" as="sourcePoint" />
+            <mxPoint x="660" y="611.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-100" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="660" y="628" as="sourcePoint" />
+            <mxPoint x="500" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-101" value="黑客拿到服务器下发的公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="638" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-102" value="黑客去获取服务器的公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="582" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-103" value="代理用户向服务器发送请求" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="676" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-107" value="黑客的私钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="753" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-110" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="391" y="800.57" as="sourcePoint" />
+            <mxPoint x="329" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-112" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="329" y="782.58" as="sourcePoint" />
+            <mxPoint x="391" y="782.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-113" value="黑客的私钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="800" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-115" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="774" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-119" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="423.58" y="710" as="sourcePoint" />
+            <mxPoint x="423.58" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-120" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-123" value="黑客查看并篡改" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="724" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-125" value="服务器公钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="760" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-126" value="服务器公钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-128" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.user_permissions;fillColor=#0078D7;" vertex="1" parent="1">
+          <mxGeometry x="147.1" y="1014" width="65.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-129" value="浏览器（用户）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="988" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-130" value="网络" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1004" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-131" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="716.4" y="1014" width="73.6" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-132" value="服务器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="974" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-133" value="私钥、公钥都在服务器上" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="948" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-134" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="234" y="1043.5" as="sourcePoint" />
+            <mxPoint x="394" y="1043.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-135" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="1043.5" as="sourcePoint" />
+            <mxPoint x="690" y="1043.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-136" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="1060" as="sourcePoint" />
+            <mxPoint x="230" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-137" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="1060" as="sourcePoint" />
+            <mxPoint x="530" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-138" value="服务器下发证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1070" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-139" value="服务器下发证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1070" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-140" value="之后向服务器发送数据使用&lt;br&gt;服务器的公钥加密之后发送" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1096" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-141" value="获取服务器证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1014" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-142" value="获取服务器证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1014" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-143" value="请求服务器资源：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="930" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-144" value="443端口" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1000" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-145" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="179.5" y="1130" as="sourcePoint" />
+            <mxPoint x="180" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-146" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1190" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-147" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="1202.5" as="sourcePoint" />
+            <mxPoint x="270" y="1203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-148" value="公钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1170" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-149" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1190" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-150" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="1202.5" as="sourcePoint" />
+            <mxPoint x="600" y="1203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-151" value="密文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1190" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-152" value="私钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1170" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-153" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635" y="1202.6599999999999" as="sourcePoint" />
+            <mxPoint x="705" y="1203.1599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-154" value="明文" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1190" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-155" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="1220" as="sourcePoint" />
+            <mxPoint x="630" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-156" value="私钥加密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1220" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-157" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="1220" as="sourcePoint" />
+            <mxPoint x="310" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-158" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="1220" as="sourcePoint" />
+            <mxPoint x="200" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-159" value="公钥解密" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1220" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-160" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="739.58" y="1130" as="sourcePoint" />
+            <mxPoint x="740.08" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-161" value="第一步：获取证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="962" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-162" value="第二步：真正的数据传输" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1144" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-163" value="服务器公钥使用CA机构的&lt;br&gt;私钥加密之后得到证书" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="1014" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-164" value="操作系统内置了CA机构的公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1014" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-165" value="使用CA机构的私钥解&lt;br&gt;析证书得到服务器公钥" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1058" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
