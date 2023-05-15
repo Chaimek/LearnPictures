@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T11:07:46.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="NovlLhx3k1U1sTfGz8Mt" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T12:17:15.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="mJKWNCIg9DQXkSomrw88" version="21.3.0" type="github">
   <diagram name="第 1 页" id="O23Y88hJr7wUiLWXJ_u-">
     <mxGraphModel dx="1953" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -625,7 +625,7 @@
             <mxPoint x="610" y="1941" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-216" value="使用服务器的公钥加密预主秘钥传输给服务器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-216" value="6、使用服务器的公钥加密预主秘钥传输给服务器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1907" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-219" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;curved=1;" edge="1" parent="1">
@@ -640,7 +640,7 @@
             <mxPoint x="180" y="2082" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-221" value="双方基于对称加密进行数据传输" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-221" value="7、双方基于对称加密进行数据传输" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="334" y="2036" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-222" value="+" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
