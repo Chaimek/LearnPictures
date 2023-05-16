@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T12:50:42.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="Rxod_vbJvL4QMX1-Q3g7" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T02:41:00.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="8bOPj_-v7jFdMlFVUWm0" version="21.3.0" type="github">
   <diagram name="第 1 页" id="O23Y88hJr7wUiLWXJ_u-">
     <mxGraphModel dx="1953" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -715,7 +715,7 @@
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-245" value="发行商(父机构)签名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349" y="2430" width="161" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-246" value="B机构给C机构颁发的证书" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-246" value="根机构A给B机构颁发的证书" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="348" y="2260" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-247" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -727,10 +727,18 @@
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-257" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln2cdZFhY50fQU2VHEEj-249" target="Ln2cdZFhY50fQU2VHEEj-245">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-267" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln2cdZFhY50fQU2VHEEj-249" target="Ln2cdZFhY50fQU2VHEEj-251">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="2533" />
+              <mxPoint x="550" y="2593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-249" value="根机构A的公钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="2510" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-251" value="跟机构A的签名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-251" value="根机构A的签名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="659" y="2570" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-252" value="根证书（内置在操作系统中）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -742,7 +750,7 @@
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-255" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln2cdZFhY50fQU2VHEEj-238" target="Ln2cdZFhY50fQU2VHEEj-242">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-258" value="2、验证签名" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-258" value="5、验证签名" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="219" y="2340" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-259" value="4、验证签名" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
@@ -751,8 +759,11 @@
         <mxCell id="Ln2cdZFhY50fQU2VHEEj-263" value="1、找父机构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="2274" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ln2cdZFhY50fQU2VHEEj-264" value="3、找父机构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-264" value="2、找父机构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="2402" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln2cdZFhY50fQU2VHEEj-268" value="3、验证签名" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="2550" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
