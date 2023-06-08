@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T05:34:30.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="YCKdvCGSQC_Q5b6oBenI" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T06:32:21.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="pWfNbwVXoCOjQDZfKah1" version="21.3.7" type="github">
   <diagram name="第 1 页" id="DaJ-24qObtk4jbQA614w">
-    <mxGraphModel dx="2325" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2516" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
           <mxGeometry x="430" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="230" width="1040" height="540" as="geometry" />
+          <mxGeometry x="-240" y="210" width="1080" height="625" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-110" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24YxcUlf_cqzRsSQSOyX-17" target="24YxcUlf_cqzRsSQSOyX-102">
           <mxGeometry relative="1" as="geometry" />
@@ -265,6 +265,9 @@
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-115" value="执行阻塞任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-110" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-118" value="JavaRuntime会跟踪记录所以的虚拟线程的状态，根据FIFO的原则选择合适的虚拟线程进行挂载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="680" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
