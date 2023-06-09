@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T00:45:53.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="fPs_YF5vy0dpqCk5aHf1" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T00:55:03.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="Y4fo82TSfaKmj0lVJFF9" version="21.3.7" type="github">
   <diagram name="第 1 页" id="DaJ-24qObtk4jbQA614w">
     <mxGraphModel dx="2757" dy="2098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           <mxGeometry x="430" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="210" width="1040" height="560" as="geometry" />
+          <mxGeometry x="-230" y="210" width="1000" height="690" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-110" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24YxcUlf_cqzRsSQSOyX-17" target="24YxcUlf_cqzRsSQSOyX-102">
           <mxGeometry relative="1" as="geometry" />
@@ -108,7 +108,7 @@
           <mxGeometry x="460" y="530" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-54" value="ForkJoinPool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="250" width="60" height="30" as="geometry" />
+          <mxGeometry x="-160" y="220" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-55" value="WorkQueue 双端队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="700" width="60" height="30" as="geometry" />
@@ -222,52 +222,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-102" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="406" width="100" height="60" as="geometry" />
+          <mxGeometry x="-170" y="326" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-103" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-149.95" y="616" as="sourcePoint" />
-            <mxPoint x="-150" y="376" as="targetPoint" />
+            <mxPoint x="-169.95" y="536" as="sourcePoint" />
+            <mxPoint x="-170" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-104" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-49.949999999999974" y="616" as="sourcePoint" />
-            <mxPoint x="-49.999999999999986" y="376" as="targetPoint" />
+            <mxPoint x="-69.94999999999997" y="536" as="sourcePoint" />
+            <mxPoint x="-69.99999999999999" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="24YxcUlf_cqzRsSQSOyX-108" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24YxcUlf_cqzRsSQSOyX-106" target="24YxcUlf_cqzRsSQSOyX-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-100" y="690" />
-              <mxPoint x="15" y="690" />
-              <mxPoint x="15" y="395" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-226" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24YxcUlf_cqzRsSQSOyX-106" target="24YxcUlf_cqzRsSQSOyX-217">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-106" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="526" width="100" height="60" as="geometry" />
+          <mxGeometry x="-170" y="446" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="24YxcUlf_cqzRsSQSOyX-107" value="FIFO的调度队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="350" width="60" height="30" as="geometry" />
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-107" value="阻塞队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-109" value="mount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="600" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="584" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-111" value="unmount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="320" width="60" height="30" as="geometry" />
+          <mxGeometry x="-40" y="270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-112" value="队头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="586" width="60" height="30" as="geometry" />
+          <mxGeometry x="-230" y="506" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-113" value="队尾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="-230" y="330" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="24YxcUlf_cqzRsSQSOyX-115" value="执行阻塞任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="485" width="100" height="30" as="geometry" />
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-115" value="等待阻塞任&lt;br&gt;务执行完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="400" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-118" value="JavaRuntime会跟踪记录所以的虚拟线程的状态，根据FIFO的原则选择合适的虚拟线程进行挂载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-215" y="680" width="130" height="30" as="geometry" />
+          <mxGeometry x="910" y="631" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-120" value="" style="endArrow=none;dashed=1;html=1;rounded=0;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -391,6 +385,42 @@
         </mxCell>
         <mxCell id="24YxcUlf_cqzRsSQSOyX-195" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="1560" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-217" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-141.43" y="610" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-218" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-141.38" y="820" as="sourcePoint" />
+            <mxPoint x="-141.43" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-219" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-41.379999999999974" y="820" as="sourcePoint" />
+            <mxPoint x="-41.429999999999986" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-228" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="24YxcUlf_cqzRsSQSOyX-220" target="24YxcUlf_cqzRsSQSOyX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-220" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-141.43" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-221" value="队头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-201.43" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-222" value="队尾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-201.43" y="614" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-227" value="VirtualThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-229" value="就绪队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24YxcUlf_cqzRsSQSOyX-230" value="阻塞任务完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="550" width="131" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
