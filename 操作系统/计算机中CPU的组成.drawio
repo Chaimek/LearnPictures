@@ -1,89 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T01:57:58.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="VScwFRgCYmBggWxkh_Nz" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T02:02:34.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="9l8c_Hmrr9ZYfox9Vh-u" version="21.3.8" type="github">
   <diagram name="第 1 页" id="1A9puUuRtC8sNvOZDW1N">
-    <mxGraphModel dx="1126" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="160" y="145" width="20" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-5" value="CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-5" value="CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="297.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-10" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;运算器:&lt;/strong&gt;&amp;nbsp;负责算术运算（+ - * / 基本运算和附加运算）和逻辑运算（包括 移位、逻辑测试或比较两个值等）。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-10" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;运算器:&lt;/strong&gt;&amp;nbsp;负责算术运算（+ - * / 基本运算和附加运算）和逻辑运算（包括 移位、逻辑测试或比较两个值等）。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="130" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-11" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;控制器:&lt;/strong&gt;负责应对所有的信息情况，调度运算器把计算做好。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-11" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;控制器:&lt;/strong&gt;负责应对所有的信息情况，调度运算器把计算做好。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="195" y="297.5" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-12" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;寄存器:&lt;/strong&gt;它们可用来暂存指令、数据和地址。既要对接控制器的命令，传达命令给运算器；还要帮运算器记录处理完或者将要处理的数据。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-12" value="&lt;strong style=&quot;border-color: var(--border-color); margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;寄存器:&lt;/strong&gt;它们可用来暂存指令、数据和地址。既要对接控制器的命令，传达命令给运算器；还要帮运算器记录处理完或者将要处理的数据。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="490" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="540" y="310" as="sourcePoint" />
             <mxPoint x="600" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-16" value="运算器，一般最少包括3个&lt;code style=&quot;margin: 0px 3px; padding: 0px 5px; font-family: &amp;quot;Courier New&amp;quot;, sans-serif; line-height: 1.8; display: inline-block; overflow-x: auto; vertical-align: middle; border-radius: 3px; background-color: rgb(246, 246, 246); color: rgb(232, 62, 140); font-weight: 400; text-align: left;&quot;&gt;寄存器&lt;/code&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;和1个&lt;/span&gt;&lt;code style=&quot;margin: 0px 3px; padding: 0px 5px; font-family: &amp;quot;Courier New&amp;quot;, sans-serif; line-height: 1.8; display: inline-block; overflow-x: auto; vertical-align: middle; border-radius: 3px; background-color: rgb(246, 246, 246); color: rgb(232, 62, 140); font-weight: 400; text-align: left;&quot;&gt;算术逻辑单元(ALU)&lt;/code&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;，&lt;br&gt;现代计算机内部往往设有通用寄存器组。&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-16" value="运算器，一般最少包括3个&lt;code style=&quot;margin: 0px 3px; padding: 0px 5px; font-family: &amp;quot;Courier New&amp;quot;, sans-serif; line-height: 1.8; display: inline-block; overflow-x: auto; vertical-align: middle; border-radius: 3px; background-color: rgb(246, 246, 246); color: rgb(232, 62, 140); font-weight: 400; text-align: left;&quot;&gt;寄存器&lt;/code&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;和1个&lt;/span&gt;&lt;code style=&quot;margin: 0px 3px; padding: 0px 5px; font-family: &amp;quot;Courier New&amp;quot;, sans-serif; line-height: 1.8; display: inline-block; overflow-x: auto; vertical-align: middle; border-radius: 3px; background-color: rgb(246, 246, 246); color: rgb(232, 62, 140); font-weight: 400; text-align: left;&quot;&gt;算术逻辑单元(ALU)&lt;/code&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;，&lt;br&gt;现代计算机内部往往设有通用寄存器组。&lt;/span&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="134" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="540" y="524.5" as="sourcePoint" />
             <mxPoint x="600" y="524.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-19" value="在CPU中至少要有六类寄存器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-19" value="在CPU中至少要有六类寄存器" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="510" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="550" y="144.5" as="sourcePoint" />
             <mxPoint x="610" y="144.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-21" value="控制器由五大部分组成" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-21" value="控制器由五大部分组成" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="633" y="299.5" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="800" y="444.5" width="20" height="157" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-24" value="指令寄存器（IR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-24" value="指令寄存器（IR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="430" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-25" value="程序计数器（PC）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-25" value="程序计数器（PC）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="464" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-26" value="地址寄存器（AR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-26" value="地址寄存器（AR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="490" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-27" value="数据寄存器（DR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-27" value="数据寄存器（DR）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="528" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-29" value="累加寄存器（AC）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-29" value="累加寄存器（AC）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="554" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-30" value="程序状态字寄存器（PSW）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-30" value="程序状态字寄存器（PSW）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="590" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="740" y="234" width="20" height="157" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-32" value="程序计数器（PC，Program Counter" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-32" value="程序计数器（PC，Program Counter" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="219.5" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-33" value="指令寄存器（IR，Instruction Register）、" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-33" value="指令寄存器（IR，Instruction Register）、" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="268.5" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-34" value="指令译码器（ID，Instruction Decoder）、" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-34" value="指令译码器（ID，Instruction Decoder）、" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="301" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-35" value="时序产生器（Timing Generator）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-35" value="时序产生器（Timing Generator）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="339" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-36" value="操作控制器（Control Unit）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="uxcVnLoZQbV1Mbwqcuwu-36" value="操作控制器（Control Unit）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="379.5" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-1" value="CPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="750" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-4" value="寄存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="750" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9jP3tb4YsDf6HWVhnMkn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="780" as="sourcePoint" />
+            <mxPoint x="330" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-8" value="一级、二级、三级缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="750" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-9" value="主存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9jP3tb4YsDf6HWVhnMkn-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="780" as="sourcePoint" />
+            <mxPoint x="740" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jP3tb4YsDf6HWVhnMkn-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="779.5" as="sourcePoint" />
+            <mxPoint x="530" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
