@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T02:22:16.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" version="21.3.8" etag="nznwFmLDX26lehfD5jah" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:55:06.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mvAQjfht-DpCn-hf_0y-" version="21.3.8" type="github">
   <diagram name="第 1 页" id="SMMPnXZLgG_OkL0JwIQL">
-    <mxGraphModel>
+    <mxGraphModel dx="1752" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-1" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-2" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-3" value="库" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="61" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-18" value="编译后的目标模块&lt;br&gt;（一般由代码编写者编译，操作系统不管）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-20" value="1. 编译：把各式各样开发语言编写的代码&lt;br&gt;编译成为二进制指令" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="154" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BheCtsbC5Pr1tIgJ_9VC-22" target="BheCtsbC5Pr1tIgJ_9VC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-22" value="链接程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BheCtsbC5Pr1tIgJ_9VC-27" target="BheCtsbC5Pr1tIgJ_9VC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="289.5" y="260" as="sourcePoint" />
+            <mxPoint x="289.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BheCtsbC5Pr1tIgJ_9VC-31" target="BheCtsbC5Pr1tIgJ_9VC-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-31" value="装入模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="414" y="410" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-34" value="2.链接" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="457" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BheCtsbC5Pr1tIgJ_9VC-35" target="BheCtsbC5Pr1tIgJ_9VC-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-35" value="装入程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-37" value="内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="414" y="640" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-40" value="3.装入" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="687" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-42" value="静态链接：一次性把编译后的目标模块经过链接程序加载需要的本地库" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-43" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="457" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-44" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
