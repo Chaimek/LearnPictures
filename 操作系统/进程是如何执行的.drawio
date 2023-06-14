@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:35:45.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="ti39fEMMKpp9UcGFI-pP" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:59:41.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="JYnbCM31tAD8iK52G3pD" version="21.3.8" type="github">
   <diagram name="第 1 页" id="SMMPnXZLgG_OkL0JwIQL">
-    <mxGraphModel dx="1139" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="BheCtsbC5Pr1tIgJ_9VC-2" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="320" y="60" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-3" value="库" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-3" value="操作系统底层函数库" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="90" y="60" width="61" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BheCtsbC5Pr1tIgJ_9VC-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" parent="1" vertex="1">
@@ -79,14 +79,26 @@
         <mxCell id="BheCtsbC5Pr1tIgJ_9VC-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="520" y="410" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-42" value="静态链接：一次性把编译后的目标模块经过链接程序加载需要的本地库" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="400" width="80" height="26" as="geometry" />
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-42" value="静态链接：一次性把编译后的目标模块经过链接程序加载需要的&lt;br&gt;操作系统底层函数库变为装入模块，在执行装入程序" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="407" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-43" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="457" width="80" height="26" as="geometry" />
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-43" value="装入时动态链接：链接程序和装入程序并行，整个程序都加载到内存中之后，才会去执行程序" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="457" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-44" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="510" width="80" height="26" as="geometry" />
+        <mxCell id="BheCtsbC5Pr1tIgJ_9VC-44" value="运行时动态链接：加载必要的模块到内存中，程序就开始执行，&lt;br&gt;当发现需要某个数据时，产生缺页中断，把对应的数据在加载进来" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="517" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-9" value="绝对装入：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="630" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-10" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="687" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-11" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="737" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
