@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:59:41.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="JYnbCM31tAD8iK52G3pD" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T13:54:18.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="1MreRNwenW2WPJT4cgTz" version="21.3.8" type="github">
   <diagram name="第 1 页" id="SMMPnXZLgG_OkL0JwIQL">
     <mxGraphModel dx="1424" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,14 +91,14 @@
         <mxCell id="P-U8-8gLLuIv1oe31DTD-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="520" y="640" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-9" value="绝对装入：" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="630" width="80" height="26" as="geometry" />
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-9" value="绝对装入：在程序中定义把程序放到内存中的哪个位置" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-10" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="687" width="80" height="26" as="geometry" />
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-10" value="可重定位装入：&amp;nbsp;&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="687" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-11" value="Title" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="737" width="80" height="26" as="geometry" />
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-11" value="动态运行时装入" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="737" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
