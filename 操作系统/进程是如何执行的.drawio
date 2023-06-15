@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T13:54:18.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="1MreRNwenW2WPJT4cgTz" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T11:20:11.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="pcK2jf46fX_lNEeY4RkS" version="21.4.0" type="github">
   <diagram name="第 1 页" id="SMMPnXZLgG_OkL0JwIQL">
-    <mxGraphModel dx="1424" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,17 +88,17 @@
         <mxCell id="BheCtsbC5Pr1tIgJ_9VC-44" value="运行时动态链接：加载必要的模块到内存中，程序就开始执行，&lt;br&gt;当发现需要某个数据时，产生缺页中断，把对应的数据在加载进来" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="517" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="520" y="640" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-9" value="绝对装入：在程序中定义把程序放到内存中的哪个位置" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-9" value="绝对装入：在程序中定义把程序放到内存中的哪个位置" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="630" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-10" value="可重定位装入：&amp;nbsp;&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="687" width="80" height="26" as="geometry" />
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-10" value="可重定位装入：把程序的逻辑地址转化为物理地址，整个装入之前不会运行程序&amp;nbsp;&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="687" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P-U8-8gLLuIv1oe31DTD-11" value="动态运行时装入" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="737" width="80" height="26" as="geometry" />
+        <mxCell id="P-U8-8gLLuIv1oe31DTD-11" value="动态运行时装入：只加载必要的程序，遇到缺少的在重新加载" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="737" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
