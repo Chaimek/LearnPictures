@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T01:21:29.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="USwpAb8smzMdilnKiB8R" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T01:26:14.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="E2Pha8diBiE-JYPlDCmv" version="21.6.8" type="github">
   <diagram name="第 1 页" id="LZYfN8Qb-46NnNl3OFI-">
-    <mxGraphModel dx="1340" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,13 +103,13 @@
         <mxCell id="YOYZqp5rT2E9GzHTg75s-50" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="660" y="612.5" width="20" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="YOYZqp5rT2E9GzHTg75s-51" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; buyLimitPrice&lt;br&gt;挂着要买入的限价交易 价格从高到底，时间从早到晚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-51" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; buyLimitPrice&lt;br&gt;市场上挂着要买的限价交易 ，出价越高越容易买到，价格从高到底" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="605" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-52" value="String symbol ,eg:ETHGCN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="670" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YOYZqp5rT2E9GzHTg75s-53" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; sellLimitPrice&lt;br&gt;挂着要卖出的限价交易，价格从低到高，时间从早到晚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-53" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; sellLimitPrice&lt;br&gt;市场上挂着要卖出的限价交易，价格从低到高，卖价越低越容易卖出去" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="745" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-54" target="YOYZqp5rT2E9GzHTg75s-57">
