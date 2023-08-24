@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T01:32:06.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="11t9IDGiZjGyQRb6O64q" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T01:39:25.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="jUrgwVsEv-LtH1_5Fdom" version="21.6.8" type="github">
   <diagram name="第 1 页" id="LZYfN8Qb-46NnNl3OFI-">
-    <mxGraphModel dx="1340" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,24 +92,24 @@
           <mxGeometry x="305" y="1015" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-45" value="String symbol ,eg:BTCGCN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="845" width="170" height="30" as="geometry" />
+          <mxGeometry x="150" y="803.07" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-46" value="String symbol ,eg:ETHGCN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="940" width="170" height="30" as="geometry" />
+          <mxGeometry x="150" y="905" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-47" value="String symbol ,eg:FOFTGCN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5" y="1030" width="170" height="30" as="geometry" />
+          <mxGeometry x="150" y="992.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-50" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="646" y="882.5" width="20" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="YOYZqp5rT2E9GzHTg75s-51" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; buyLimitPrice&lt;br&gt;市场上挂着要买的限价交易 ，出价越高越容易买到，价格从高到底" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-51" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; buyLimitPrice&lt;br&gt;市场上挂着要买的限价交易 ，出价越高越容易买到，价格从高到底,时间从早到晚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="666" y="875" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-52" value="String symbol ,eg:ETHGCN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="676" y="940" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YOYZqp5rT2E9GzHTg75s-53" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; sellLimitPrice&lt;br&gt;市场上挂着要卖出的限价交易，价格从低到高，卖价越低越容易卖出去" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-53" value="TreeMap&amp;lt;BigDecimal, MergeOrder&amp;gt; sellLimitPrice&lt;br&gt;市场上挂着要卖出的限价交易，价格从低到高，卖价越低越容易卖出去，时间从早到晚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="666" y="1015" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-54" target="YOYZqp5rT2E9GzHTg75s-57">
@@ -164,19 +164,22 @@
           <mxGeometry x="1101" y="790" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-72" value="&lt;div&gt;public class MergeOrder {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private LinkedList&amp;lt;Order&amp;gt; orders = new LinkedList&amp;lt;&amp;gt;();&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="946" y="992.5" width="390" height="75" as="geometry" />
+          <mxGeometry x="983" y="1027.5" width="390" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="YOYZqp5rT2E9GzHTg75s-77" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="1401" y="826.13" width="20" height="43.87" as="geometry" />
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-77" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="1140.54" y="970" width="220.93" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-90" value="MergeOrder的LinkedLIst属性orders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1416" y="833.07" width="130" height="30" as="geometry" />
+          <mxGeometry x="1129" y="997.5" width="244" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-91" value="发送委托单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="445" y="90" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-92" value="拉取委托单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="445" y="221" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-94" value="OrderBooks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="803.07" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
