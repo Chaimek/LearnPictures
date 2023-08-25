@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T01:49:39.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="W0weJjXu7DQ151R-F2dj" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T11:10:41.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="9fhjekWJoMXMjlZsuOWd" version="21.6.8" type="github">
   <diagram name="第 1 页" id="LZYfN8Qb-46NnNl3OFI-">
-    <mxGraphModel dx="1383" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1689" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,6 +188,53 @@
         </mxCell>
         <mxCell id="YOYZqp5rT2E9GzHTg75s-99" value="执行onEvent方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-112" target="YOYZqp5rT2E9GzHTg75s-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900.0769230769229" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-112" value="开始撮合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-116" target="YOYZqp5rT2E9GzHTg75s-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-116" value="1、进行数据的校验 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-10" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-117" target="YOYZqp5rT2E9GzHTg75s-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-117" value="2、从交易账本单中得到交易对挂在市场的订单，Map.Entry&amp;lt;BigDecimal, MergeOrder&amp;gt;的迭代器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="100" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-119" target="YOYZqp5rT2E9GzHTg75s-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-119" value="3、完成委托单的匹配和交易，记录交易数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="206" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-121" target="YOYZqp5rT2E9GzHTg75s-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-121" value="4、若订单没有完成，将该订单挂载到市场上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="315" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-122" target="YOYZqp5rT2E9GzHTg75s-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOYZqp5rT2E9GzHTg75s-122" target="YOYZqp5rT2E9GzHTg75s-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-122" value="5、发送交易记录到MQ中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="420" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-123" value="6、交易服务根据发送过来的交易记录沉淀到表中，并更新委托单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="580" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOYZqp5rT2E9GzHTg75s-127" value="7、定时任务根据交易记录完成K线等数据的构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="859" y="580" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
