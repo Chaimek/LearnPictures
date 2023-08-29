@@ -1,149 +1,329 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T01:06:32.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="zyJk4RDtjfGXbZVvFkpP" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T14:01:48.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="m0XB8WZgt4z7Pxl5aDRz" version="21.6.9" type="github">
   <diagram name="第 1 页" id="PPwoz7yZRomg1pSmv1Gj">
-    <mxGraphModel dx="2152" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3588" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LeH1Namwxec1cVJ9D27f-1" value="秒杀活动在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-1" value="秒杀活动在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="80" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="140" width="740" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="190" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-5" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-5" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="110" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-6" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-6" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-7" value="seckill:sessions:1685322000000_1685347200000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-7" value="seckill:sessions:1685322000000_1685347200000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="205" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-9" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-9" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-10" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-10" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LeH1Namwxec1cVJ9D27f-12">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LeH1Namwxec1cVJ9D27f-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="500" y="220" as="sourcePoint" />
             <mxPoint x="660" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-12" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-12" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="190" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-13" value="value为list结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-13" value="value为list结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="270" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-15" value="1685322000000_1685347200000 是秒杀活动&lt;br&gt;的开始时间和结束时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-15" value="1685322000000_1685347200000 是秒杀活动&lt;br&gt;的开始时间和结束时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="260" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LeH1Namwxec1cVJ9D27f-17">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LeH1Namwxec1cVJ9D27f-17" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="630" y="220" as="sourcePoint" />
             <mxPoint x="790" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-17" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-17" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="190" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-19" value="秒杀商品数量在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-19" value="秒杀商品数量在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="380" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="440" width="740" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="490" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-22" value="Redission操作Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-22" value="Redission操作Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="410" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-23" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-23" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-24" value="seckill:skuStockLocks:4dbbf3324f7a44dfa5235a61af171a4f" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-24" value="seckill:skuStockLocks:4dbbf3324f7a44dfa5235a61af171a4f" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="510" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-25" value="100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-25" value="100" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="495" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-26" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-26" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="460" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-29" value="秒杀商品的数量 ，是信号量，只有抢到了才会扣减" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-29" value="秒杀商品的数量 ，是信号量，只有抢到了才会扣减" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="560" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-30" value="4dbbf3324f7a44dfa5235a61af171a4f：商品秒杀码（随机码）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-30" value="4dbbf3324f7a44dfa5235a61af171a4f：商品秒杀码（随机码）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="560" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-33" value="秒杀商品在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-33" value="秒杀商品在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="690" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="750" width="640" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-36" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-36" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="720" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-37" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-37" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="760" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-38" value="seckill:skus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-38" value="seckill:skus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="910" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-40" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-40" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="760" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="790" width="260" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-44" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-44" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="820" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-45" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-45" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="820" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-46" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-46" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="302.5" y="915" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-47" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-47" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="427.5" y="915" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-48" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-48" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="302.5" y="1010" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-49" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-49" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="427.5" y="1010" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-50" value="hash结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-50" value="hash结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="302.5" y="790" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-51" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-51" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="850" as="sourcePoint" />
             <mxPoint x="430" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LeH1Namwxec1cVJ9D27f-46" target="LeH1Namwxec1cVJ9D27f-47">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LeH1Namwxec1cVJ9D27f-46" target="LeH1Namwxec1cVJ9D27f-47" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="950" as="sourcePoint" />
             <mxPoint x="550" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LeH1Namwxec1cVJ9D27f-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="LeH1Namwxec1cVJ9D27f-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="392.5" y="1039.58" as="sourcePoint" />
             <mxPoint x="427.5" y="1039.58" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-1" target="MlomNEwrZgwuZIhiv1e3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-1" value="秒杀商品定时上架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-2" target="MlomNEwrZgwuZIhiv1e3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-2" value="定时任务查询营销服务近三日所有秒杀活动及其商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-4" target="MlomNEwrZgwuZIhiv1e3-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-4" target="MlomNEwrZgwuZIhiv1e3-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-4" target="MlomNEwrZgwuZIhiv1e3-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-4" value="封装最新的秒杀信息存放到Redis中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-13" value="幂等性保证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-14" value="所有秒杀商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="191" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-15" value="秒杀活动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-39" value="秒杀商品在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1241" y="49" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1283" y="75" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1253" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-43" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1235" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-44" value="seckill:skus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1223" y="201" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-45" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-993" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1013" y="115" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-47" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-993" y="145" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-48" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-868" y="145" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-49" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-988" y="215" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-50" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-868" y="215" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-51" target="MlomNEwrZgwuZIhiv1e3-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-51" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990.5" y="285" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-52" value="商品秒杀信息和商品基本信息JSON字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-868" y="285" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-53" value="hash结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-990.5" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-54" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-903" y="175" as="sourcePoint" />
+            <mxPoint x="-863" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-55" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-49" target="MlomNEwrZgwuZIhiv1e3-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-903" y="275" as="sourcePoint" />
+            <mxPoint x="-743" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-75" value="秒杀活动在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1233" y="399" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-76" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1285" y="425" width="740" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-77" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1265" y="485" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-79" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1235" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-80" value="seckill:sessions:1685322000000_1685347200000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1155" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-81" value="3_16" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="475" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-82" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-83" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MlomNEwrZgwuZIhiv1e3-84">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-815" y="505" as="sourcePoint" />
+            <mxPoint x="-655" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-84" value="3_11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="475" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-85" value="value为list结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="555" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-86" value="1685322000000_1685347200000 是秒杀活动&lt;br&gt;的开始时间和结束时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="550" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-87" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MlomNEwrZgwuZIhiv1e3-88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-685" y="505" as="sourcePoint" />
+            <mxPoint x="-525" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-88" value="sessionId_skuId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-655" y="475" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-49" target="MlomNEwrZgwuZIhiv1e3-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-94" target="MlomNEwrZgwuZIhiv1e3-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MlomNEwrZgwuZIhiv1e3-94" target="MlomNEwrZgwuZIhiv1e3-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-94" value="设置秒杀商品分布式信号量作为库存扣减信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="673" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-96" value="秒杀商品数量在Redis中存储结构" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1233" y="610" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-97" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1288" y="638" width="733" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-98" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1268" y="678" width="313" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-99" value="Redission操作Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="673" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-100" value="key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1238" y="648" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-101" value="seckill:skuStockLocks:4dbbf3324f7a44dfa5235a61af171a4f" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1138" y="688" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-102" value="100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-838" y="673" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-103" value="value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-818" y="648" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-104" value="秒杀商品的数量 ，是信号量，只有抢到了才会扣减" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-875" y="738" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-105" value="4dbbf3324f7a44dfa5235a61af171a4f：商品秒杀码（随机码）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="728" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlomNEwrZgwuZIhiv1e3-109" value="为上架秒杀的商品锁定库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
