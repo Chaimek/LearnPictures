@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T07:14:32.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="EjVG5ahXcOR-V5WYJbH8" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T07:15:47.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="MCM9Nio_MLRN-LD9cE9T" version="21.6.9" type="github">
   <diagram name="第 1 页" id="tCXFLTWe_tcqSmrKPMjY">
     <mxGraphModel dx="1142" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="gV8c4JJkfnYhTOOU84S4-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gV8c4JJkfnYhTOOU84S4-22" value="超过一分钟允许重新发送验证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="275" y="520" width="90" height="30" as="geometry" />
+        <mxCell id="gV8c4JJkfnYhTOOU84S4-22" value="否，超过一分钟允许重新发送验证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="520" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gV8c4JJkfnYhTOOU84S4-25" value="未发送过验证码或已发送的验证码过期，允许发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="445" width="140" height="30" as="geometry" />
