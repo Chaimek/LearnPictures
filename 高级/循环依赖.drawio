@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T09:34:53.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="0F-5S4YyLRXUpe7tVYgP" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T10:03:29.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="_zGsUUjH1ITFUjy4f5xz" version="21.7.2" type="github">
   <diagram name="第 1 页" id="M02ZMbayEGRkc3UgYxMf">
-    <mxGraphModel dx="2175" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2767" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,13 @@
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--10" value="a.init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GJJ1H4kPaRtMAL0-MUc--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="GJJ1H4kPaRtMAL0-MUc--11" target="GJJ1H4kPaRtMAL0-MUc--68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="GJJ1H4kPaRtMAL0-MUc--11" target="GJJ1H4kPaRtMAL0-MUc--14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="455" />
+              <mxPoint x="20" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--11" value="pa=earlys.get:proxy(a)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="440" width="180" height="30" as="geometry" />
@@ -94,6 +99,9 @@
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597" y="150" width="200" height="380" as="geometry" />
         </mxCell>
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="GJJ1H4kPaRtMAL0-MUc--23" target="GJJ1H4kPaRtMAL0-MUc--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--23" value="getBean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="597" y="150" width="60" height="30" as="geometry" />
         </mxCell>
@@ -123,6 +131,9 @@
         </mxCell>
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--31" value="pb=earlys.get:proxy(b)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="607" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="GJJ1H4kPaRtMAL0-MUc--32" target="GJJ1H4kPaRtMAL0-MUc--15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--32" value="singletons.put(pb)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="607" y="480" width="180" height="30" as="geometry" />
@@ -176,11 +187,20 @@
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--65" value="pa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="290" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GJJ1H4kPaRtMAL0-MUc--68" value="代理已经创建过，直接使用，没创建过，才需创建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="400" width="100" height="30" as="geometry" />
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--68" value="9、去二级缓存中看A的代理对象是否被提前创建了，如果有，直接使用，没有才会为A创建代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="260" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GJJ1H4kPaRtMAL0-MUc--70" value="&lt;div&gt;6、拿到工厂对象之后，判断有没有循环依赖，提前创建代理返回,&lt;span style=&quot;background-color: initial;&quot;&gt;没有循环依赖，还是返回原始对象&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="250" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--75" value="6、不管是代理对象，还是原始对象都会放入二级缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="857" y="190" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--79" value="7、将B放到一级缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJJ1H4kPaRtMAL0-MUc--83" value="8、返回B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
