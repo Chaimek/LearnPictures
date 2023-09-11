@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T10:54:06.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" version="21.7.2" etag="QZBaTWBRu-Os2O2VKv77" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:42:56.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="lQenjGYPHmIfHNt586S0" version="21.7.2" type="github">
   <diagram name="第 1 页" id="rslrv8k8TtsJbnl1jgh9">
-    <mxGraphModel>
+    <mxGraphModel dx="1146" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1gHBKMJ1h_FV2K_EdLm9-1" target="1gHBKMJ1h_FV2K_EdLm9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-1" value="DB查询出来的数据使用被@Excel标注的类A收集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gHBKMJ1h_FV2K_EdLm9-2" target="1gHBKMJ1h_FV2K_EdLm9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-2" value="创建ExcelUtil&amp;lt;class&amp;lt;T&amp;gt; class&amp;gt; ,泛型填写需要导出的类A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1gHBKMJ1h_FV2K_EdLm9-4" target="1gHBKMJ1h_FV2K_EdLm9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-4" value="根据反射，获取A中被@Excel标注的属性&lt;br&gt;，封装为一个Object[]数组，存放到List中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="285" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-8" value="object[1] : 注解对象&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="335" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-9" value="object[0] : 属性的Field（反射的那个），属性名字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="295" width="156.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1gHBKMJ1h_FV2K_EdLm9-12" target="1gHBKMJ1h_FV2K_EdLm9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-12" value="创建工作簿(Excel文件)，创建工作表（ Excel 文件中的一个表格），设置Excel表格样式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gHBKMJ1h_FV2K_EdLm9-14" value="遍历List集合，通过Row创建每一行数据，通过Object[0]获取到数据，Object[1] 获取注解对象，拿到注解name属性，得到要导出的Excel表格的标题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="520" width="175" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
