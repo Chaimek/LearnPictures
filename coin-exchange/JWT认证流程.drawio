@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T13:03:57.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" version="21.7.5" etag="qX_WxchnTv5UebdTO7od" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T13:12:16.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="OTnk4b7hn2BYVE2_7MMx" version="21.7.5" type="github">
   <diagram name="第 1 页" id="fLwNNgNCNl2ztyWhb2Ev">
-    <mxGraphModel>
+    <mxGraphModel dx="1782" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-2" target="HrfyjQmDxBG1o7t8RHfd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-2" target="HrfyjQmDxBG1o7t8RHfd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-2" target="HrfyjQmDxBG1o7t8RHfd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.41;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-2" target="HrfyjQmDxBG1o7t8RHfd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-2" value="网关" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-3" target="HrfyjQmDxBG1o7t8RHfd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-3" value="认证服务" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HrfyjQmDxBG1o7t8RHfd-5" target="HrfyjQmDxBG1o7t8RHfd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-5" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-11" value="1、网关拦截需要登录才能访问的接&lt;br&gt;口，转发到认证服务，进行统一认证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-14" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2、&lt;span style=&quot;orphans: 4; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; text-align: left;&quot;&gt;认证服务对账号和密码进行校验，&lt;br&gt;校验成功颁发JWT令牌，响应给客户端&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3、&lt;span style=&quot;orphans: 4; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; text-align: left;&quot;&gt;认证服务对账号和密码进行校验，校验成功颁发JWT令牌，响应给客户端&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-16" value="微服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-17" value="微服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-18" value="微服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-23" value="&lt;div style=&quot;orphans: 4; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;4、&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif;&quot;&gt;客户端携带JWT令牌通过网关去访问各个微服务&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;6、&lt;span style=&quot;orphans: 4; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; text-align: left;&quot;&gt;请求到达了微服务，微服务根据JWT中的权限信息校验&lt;br&gt;用户是否拥有某个接口的权限，如果有则继续访问，没有则拒绝。&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="390" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HrfyjQmDxBG1o7t8RHfd-25" value="5、网关对JWT令牌的合法性进行校验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
